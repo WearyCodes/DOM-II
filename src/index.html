@@ -7,18 +7,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
   <title>Great Idea!</title>
+
+  <style>
+    .Big {
+transform: scale(1.5)
+    }
+
+
+  </style>
 </head>
 
 <body>
 
   <header class="main-navigation">
     <div class="container nav-container">
-      <h1 class="logo-heading">Fun Bus</h1>
+      <h1 class="logo-heading">Fun Bus</h1> <h2 id="counter">0</h2>
       <nav class="nav">
-        <a class="nav-link" href="#">Home</a>
-        <a class="nav-link" href="#">About Us</a>
-        <a class="nav-link" href="#">Blog</a>
-        <a class="nav-link" href="#">Contact</a>
+        <a class="homelink" href="#">Home</a>
+        <a class="aboutlink" href="#">About Us</a>
+        <a class="bloglink" href="#">Blog</a>
+        <a class="contactlink" href="#">Contact</a>
       </nav>
     </div>
   </header>
@@ -26,13 +34,13 @@
   <div class="container home">
     <header class="intro">
       <img src="http://localhost:9000/img/fun-bus.jpg" alt="bus in the sand">
-      <h2>Welcome To Fun Bus!</h2>
+      <h2>Welcome to Fun Bus!</h2>
       <p>Traveling expedition modern, clean webdesign blogger clean website theme website modern. Design pretty design,
         travelblogger adventure WordPress wanderlust theme blogger website expedition theme travelblogger. Adventure fun
         traveler pretty design website expedition.</p>
     </header>
-    <section class="content-section">
-      <div class="text-content">
+    <section id='abouttext' class="content-section">
+      <div  class="text-content">
         <h2>Let's Go!</h2>
         <p>Adventure webdesign pretty design design, excursion cute WordPress blogger design webdesign adventure. Pretty
           simple traveling fun WordPress wanderlust darn simple organized.</p>
@@ -47,7 +55,7 @@
       <div class="img-content">
         <img src="http://localhost:9000/img/fun.jpg" class="img-fluid rounded" alt="Lets have fun!">
       </div>
-      <div class="text-content">
+      <div id='blog'class="text-content">
         <h2>Adventure Awaits</h2>
         <p>Adventure webdesign pretty design design, excursion cute WordPress blogger design webdesign adventure. Pretty
           simple traveling fun WordPress wanderlust darn simple organized.</p>
