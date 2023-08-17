@@ -70,3 +70,15 @@ document.addEventListener("DOMContentLoaded", function() {
       window.location.href = mailtoLink;
     });
   });
+  const body = document.querySelector('body')
+  window.addEventListener('DOMContentLoaded', () => {
+    body.classList.add('yellow')
+  })
+function returner(){
+    let retVal = confirm('Are you sure you want to sign up?')
+    if (retVal === true){window.open('https://www.travelocity.com/')}
+}
+
+
+  let buttons = document.querySelectorAll('.btn')
+  buttons.forEach(button => button.addEventListener('click', returner))
